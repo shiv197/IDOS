@@ -1,0 +1,163 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* Common Page */
+    .mobile_menu {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    /* Landing Page */
+    .img-fluid-custome {
+        max-width: initial;
+        height: auto;
+        width: auto;
+    }
+
+    /* End Landing Page */
+    /* About US */
+    .content_main {
+        padding: 15px;
+    }
+
+    .card {
+        background: transparent;
+    }
+
+    .about_content {
+        height: 50vh;
+        padding-left: 50px;
+    }
+
+    .about_content p {
+        line-height: 22px;
+    }
+
+    [data-toggle="collapse"]:before {
+        left: 45px;
+        top: 29px;
+    }
+
+    /* End About US */
+    /* Contact Us */
+    .contact_content {
+        height: 50vh;
+        padding-left: 56px;
+    }
+}
+
+@media (max-width:767.98px) {
+
+    /* Common Page */
+    .mobile_menu {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    /* Landing Page */
+    .img-fluid-custome {
+        max-width: initial;
+        height: auto;
+        width: auto;
+    }
+
+    /* End Landing Page */
+    /* About US */
+    .content_main {
+        padding: 15px;
+    }
+
+    .card {
+        background: transparent;
+    }
+
+    .about_content {
+        height: 50vh;
+        padding-left: 50px;
+    }
+
+    .about_content p {
+        line-height: 22px;
+    }
+
+    [data-toggle="collapse"]:before {
+        left: 45px;
+        top: 29px;
+    }
+
+    /* End About US */
+    /* Contact Us */
+    .contact_content {
+        height: 50vh;
+        padding-left: 56px;
+    }
+
+    /* End Contact Us */
+    /* Projects */
+    .mobileProject {
+        position: relative;        
+    }
+    .mobileProject:not(:first-child){
+        border-top:1px solid var(--color-dark) ;
+    }
+    .mobileProject:first-child{
+        border-top:1px solid var(--color-dark) ;
+    }
+    .mobileProject:last-child{
+        border-bottom:1px solid var(--color-dark) ;
+    }
+    .projectMobLink {color: var(--color-dark);}
+
+    .mobileProject .collapsed {
+        width: auto !important;
+        padding: 0;
+    }
+    .mobName{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        font-size: 18px;
+    }
+
+    .mobileProject [data-toggle="collapse"]:before {
+        display: none;
+    }
+
+    /* End Projects */
+    /* Project Details */
+    .project_details_mobile {
+        height: 85vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    .project_mob_table td:first-child {
+        font-size: 12px;
+    }
+
+    /* End Project Details */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .img-fluid-custome {
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+    }
+}

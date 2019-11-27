@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background: rbga(0, 0, 0, .8);
+            text-align: center;
+        }
+
+        #pong {
+            border: 10px solid rgb(190, 168, 49);
+            position: absolute;
+            margin: auto;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            opacity: 0.8;
+        }
+
+        button {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            border: 0;
+            background: white;
+            align-items: center;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 15px;
+            cursor: pointer;
+            box-shadow: inset 0px 0px 10px #4b4e1e, 0px 0px 10px #4B4E1F;
+            border: 1px solid #4b4e1e;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+</head>
+
+<body>
+    <button onclick="reloadThePage()">
+        <i class="fas fa-sync fa-spin "></i>
+    </button>
+    <canvas id="pong" width="800" height="450"></canvas>
+
+
+
+    <script src="js/pong.js"></script>
+    <script>
+        function reloadThePage() {
+            window.location.reload();
+        } 
+    </script>
+</body>
+
+</html>
